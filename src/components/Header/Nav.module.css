@@ -1,0 +1,14 @@
+.nav {
+  width: 66%;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav_menu li {
+  padding: 20px;
+  cursor: pointer;
+}
