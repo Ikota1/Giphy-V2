@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Sidebar.module.css';
-import { sidebarMenu } from '@/constants/sidebarMenu';
+import { sidebarMenu } from '@/data/sidebarMenu';
 
 const Sidebar: React.FunctionComponent = () => {
   return (
@@ -16,7 +16,7 @@ const Sidebar: React.FunctionComponent = () => {
       <div className={styles.sidebar_bottom}>
         <ul>
           <li className={styles.toggle_darkmode}>
-            <img src="src/assets/brightness.png" alt="brightness" />
+            <img src="src/assets/icons/brightness.png" alt="brightness" />
           </li>
         </ul>
       </div>
