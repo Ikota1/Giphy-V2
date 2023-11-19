@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigationMenu } from '@/constants/navigationMenu';
+import { navigationMenu } from '@/data/navigationMenu';
 import styles from './Nav.module.css';
 
 const Nav: React.FunctionComponent = () => {
