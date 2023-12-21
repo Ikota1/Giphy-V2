@@ -13,8 +13,7 @@ const App = () => {
         {<Home /> && <AppRouter />}
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;

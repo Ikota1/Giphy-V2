@@ -5,9 +5,14 @@ const SearchInput = () => {
   return (
     <div className={styles.input_search}>
       <Search />
-      <input type="search" className={styles.search} placeholder="Search GIFs" id="" />
+      <input
+        type='search'
+        className={styles.search}
+        placeholder='Search GIFs'
+        id=''
+      />
     </div>
-  )
-}
+  );
+};
 
-export default SearchInput
+export default SearchInput;

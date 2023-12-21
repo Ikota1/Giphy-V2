@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import styles from './Header.module.css';
 import Logo from './Logo';
 import SearchInput from './SearchInput';
 import Nav from './Nav';
@@ -16,7 +16,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
