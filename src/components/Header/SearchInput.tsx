@@ -1,8 +1,7 @@
-import React from 'react';
 import { Search } from 'lucide-react';
 import styles from './SearchInput.module.css';
 
-const SearchInput: React.FC = () => {
+const SearchInput = () => {
   return (
     <div className={styles.input_search}>
       <Search />
