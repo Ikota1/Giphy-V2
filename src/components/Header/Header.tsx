@@ -1,10 +1,9 @@
-import React from 'react';
 import styles from './Header.module.css'
 import Logo from './Logo';
 import SearchInput from './SearchInput';
 import Nav from './Nav';
 
-const Header: React.FunctionComponent = () => {
+const Header = () => {
   return (
     <header className={styles.Header}>
       <div className={styles.header_wrapper}>
